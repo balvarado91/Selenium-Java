@@ -6,9 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="testAutomatioU" />
-        <module name="SeleniumWebDriverJava" />
+        <module name="webDriver_java" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="11">
+      <module name="SeleniumRepository" target="11" />
+      <module name="webDriver_java" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
