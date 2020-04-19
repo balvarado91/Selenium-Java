@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24abf292-7ea0-4fa1-b0b9-a2f0a44860bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/SeleniumRepository.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webDriver_java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/SecureAreaPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/SecureAreaPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,27 +44,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pages" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.AlertTests">
-    <configuration name="BaseTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.BaseTests" />
-      <module name="testAutomatioU" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.JavaScriptTests.TestScrollToTable">
     <configuration name="AlertTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWebDriverJava" />
       <extension name="coverage">
@@ -91,17 +72,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HoverTests.testHoverUser1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FileUploadTests.testFileUpload" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWebDriverJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hover.*" />
+          <option name="PATTERN" value="alerts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hover" />
-      <option name="MAIN_CLASS_NAME" value="hover.HoverTests" />
-      <option name="METHOD_NAME" value="testHoverUser1" />
+      <option name="PACKAGE_NAME" value="alerts" />
+      <option name="MAIN_CLASS_NAME" value="alerts.FileUploadTests" />
+      <option name="METHOD_NAME" value="testFileUpload" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -109,17 +90,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KeysTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FrameTests.testWysiwyg" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumWebDriverJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="keys.*" />
+          <option name="PATTERN" value="frames.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="keys" />
-      <option name="MAIN_CLASS_NAME" value="keys.KeysTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="frames" />
+      <option name="MAIN_CLASS_NAME" value="frames.FrameTests" />
+      <option name="METHOD_NAME" value="testWysiwyg" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaScriptTests.TestScrollToTable" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWebDriverJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javascript.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="javascript" />
+      <option name="MAIN_CLASS_NAME" value="javascript.JavaScriptTests" />
+      <option name="METHOD_NAME" value="TestScrollToTable" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WaitTests.testWaitUntilHidden" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumWebDriverJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wait.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="wait" />
+      <option name="MAIN_CLASS_NAME" value="wait.WaitTests" />
+      <option name="METHOD_NAME" value="testWaitUntilHidden" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -128,10 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.JavaScriptTests.TestScrollToTable" />
+        <item itemvalue="TestNG.WaitTests.testWaitUntilHidden" />
+        <item itemvalue="TestNG.FrameTests.testWysiwyg" />
+        <item itemvalue="TestNG.FileUploadTests.testFileUpload" />
         <item itemvalue="TestNG.AlertTests" />
-        <item itemvalue="TestNG.KeysTests" />
-        <item itemvalue="TestNG.HoverTests.testHoverUser1" />
-        <item itemvalue="Application.BaseTests" />
       </list>
     </recent_temporary>
   </component>
@@ -165,39 +184,45 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="248" y="23" key="#BaseTests/0.23.1280.777@0.23.1280.777" timestamp="1585615946569" />
-    <state width="1228" height="150" key="GridCell.Tab.0.bottom" timestamp="1585627996363">
+    <state width="1228" height="150" key="GridCell.Tab.0.bottom" timestamp="1587329346462">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1228" height="150" key="GridCell.Tab.0.bottom/0.23.1280.777/-1366.-52.1366.745@-1366.-52.1366.745" timestamp="1584683794724" />
+    <state width="1228" height="150" key="GridCell.Tab.0.bottom/0.23.1280.777/-1366.-52.1366.745@0.23.1280.777" timestamp="1587329346462" />
     <state width="1228" height="150" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1585627996363" />
-    <state width="1228" height="150" key="GridCell.Tab.0.center" timestamp="1585627996360">
+    <state width="1228" height="150" key="GridCell.Tab.0.center" timestamp="1587329346461">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1228" height="150" key="GridCell.Tab.0.center/0.23.1280.777/-1366.-52.1366.745@-1366.-52.1366.745" timestamp="1584683794723" />
+    <state width="1228" height="150" key="GridCell.Tab.0.center/0.23.1280.777/-1366.-52.1366.745@0.23.1280.777" timestamp="1587329346461" />
     <state width="1228" height="150" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1585627996360" />
-    <state width="1228" height="150" key="GridCell.Tab.0.left" timestamp="1585627996360">
+    <state width="1228" height="150" key="GridCell.Tab.0.left" timestamp="1587329346461">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1228" height="150" key="GridCell.Tab.0.left/0.23.1280.777/-1366.-52.1366.745@-1366.-52.1366.745" timestamp="1584683794722" />
+    <state width="1228" height="150" key="GridCell.Tab.0.left/0.23.1280.777/-1366.-52.1366.745@0.23.1280.777" timestamp="1587329346461" />
     <state width="1228" height="150" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1585627996360" />
-    <state width="1228" height="150" key="GridCell.Tab.0.right" timestamp="1585627996362">
+    <state width="1228" height="150" key="GridCell.Tab.0.right" timestamp="1587329346462">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="1228" height="150" key="GridCell.Tab.0.right/0.23.1280.777/-1366.-52.1366.745@-1366.-52.1366.745" timestamp="1584683794724" />
+    <state width="1228" height="150" key="GridCell.Tab.0.right/0.23.1280.777/-1366.-52.1366.745@0.23.1280.777" timestamp="1587329346462" />
     <state width="1228" height="150" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1585627996362" />
     <state x="0" y="23" key="SettingsEditor" timestamp="1585616279839">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="-1296" y="-52" key="SettingsEditor/0.23.1280.777/-1366.-52.1366.745@-1366.-52.1366.745" timestamp="1584679912978" />
     <state x="0" y="23" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1585616279839" />
-    <state x="206" y="216" key="com.intellij.ide.util.TipDialog" timestamp="1585068509083">
+    <state x="206" y="216" key="com.intellij.ide.util.TipDialog" timestamp="1587263172301">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="206" y="216" key="com.intellij.ide.util.TipDialog/0.23.1280.777/-1366.-52.1366.745@0.23.1280.777" timestamp="1585068509083" />
-    <state x="207" y="23" width="838" height="777" key="search.everywhere.popup" timestamp="1585627267626">
+    <state x="206" y="216" key="com.intellij.ide.util.TipDialog/0.23.1280.777/-1366.-52.1366.745@0.23.1280.777" timestamp="1586181129668" />
+    <state x="206" y="216" key="com.intellij.ide.util.TipDialog/0.23.1280.777@0.23.1280.777" timestamp="1587263172301" />
+    <state x="207" y="23" width="838" height="777" key="search.everywhere.popup" timestamp="1587328062720">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="-1145" y="-52" width="838" height="745" key="search.everywhere.popup/0.23.1280.777/-1366.-52.1366.745@-1366.-52.1366.745" timestamp="1584679862393" />
+    <state x="207" y="23" width="838" height="777" key="search.everywhere.popup/0.23.1280.777/-1366.-52.1366.745@0.23.1280.777" timestamp="1587328062720" />
     <state x="207" y="23" width="838" height="777" key="search.everywhere.popup/0.23.1280.777@0.23.1280.777" timestamp="1585627267626" />
   </component>
 </project>
